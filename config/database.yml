@@ -17,9 +17,10 @@
 default: &default
   adapter: postgresql
   encoding: unicode
-  host: localhost
-  username: pguser
-  password: qburst 
+  host: db
+  username: postgres
+  password: ''
+  port: 5432
   
   # For details on connection pooling, see Rails configuration guide
   # http://guides.rubyonrails.org/configuring.html#database-pooling
