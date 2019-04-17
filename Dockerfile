@@ -1,5 +1,5 @@
 # Use the barebones version of Ruby 2.2.3.
-FROM ruby:2.5
+FROM ruby:2.5.3
 
 # Optionally set a maintainer name to let people know who made this image.
 MAINTAINER Wilson Varghese <varghesewilson16@gmail.com>
